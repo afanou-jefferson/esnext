@@ -81,7 +81,8 @@ const priceSrv = new PriceService();
 priceSrv.findPriceByTripId('paris')
     .then(price => console.log('price =', price))
     .catch(err => console.log(err));
-priceSrv.findPriceByTripId('nantes')
+
+    priceSrv.findPriceByTripId('nantes')
     .then(price => console.log('price =', price))
     .catch(err => console.log(err));
 
